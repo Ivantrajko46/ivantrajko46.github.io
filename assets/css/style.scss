@@ -261,10 +261,13 @@
                 align-text: right;
             }
         }
+        #mainSlider {
+            height: 550px;
+        }
     }
     @media screen and (max-width: 768px) {
         #mainSlider {
-            height: 500px;
+            height: 460px;
         }
     }
 
@@ -299,5 +302,13 @@
 
         #mainSlider {
             height: 250px;
+        }
+
+        #web-team {
+            .card {
+                .card-body {
+                    padding: 10px;
+                }
+            }
         }
     }

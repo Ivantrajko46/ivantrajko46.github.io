@@ -179,11 +179,13 @@ body {
 @media screen and (max-width: 992px) {
   #web-address .left-address {
     border: none;
-    align-text: right; } }
+    align-text: right; }
+  #mainSlider {
+    height: 550px; } }
 
 @media screen and (max-width: 768px) {
   #mainSlider {
-    height: 500px; } }
+    height: 460px; } }
 
 @media screen and (max-width: 576px) {
   #mainSlider {
@@ -198,4 +200,6 @@ body {
     width: 260px;
     height: 200px; }
   #mainSlider {
-    height: 250px; } }
+    height: 250px; }
+  #web-team .card .card-body {
+    padding: 10px; } }
