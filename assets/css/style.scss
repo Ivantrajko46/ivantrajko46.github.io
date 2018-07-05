@@ -1,0 +1,299 @@
+    // body,div,h1,h2,h3,h4,h5,p,input,label {
+    //  font-family: 'Lato', sans-serif;
+    // }
+    * {
+        font-family: 'Lato', sans-serif;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    #mainSlider {
+        height: 600px;
+        .carousel-inner,
+        .carousel-item,
+        img {
+            height: 100%;
+            min-height: 100%;
+            max-height: 100%;
+        }
+
+        .web-slider-mask {
+
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, .55);
+        }
+
+        .meni-btn {
+
+            position: fixed;
+            z-index: 10;
+            top: 20px;
+            right: 20px;
+            background-color: rgba(0, 0, 0, .2);
+            border: none;
+
+            color: #fff;
+            font-size: 40px;
+        }
+    }
+
+    #web-intro {
+
+        svg {
+
+            width: 50px;
+            height: 50px;
+            fill: #b2b2b2;
+
+
+            &:hover {
+                width: 60px;
+                height: 60px;
+                fill: #007bff;
+            }
+        }
+    }
+
+    .web-paralex {
+        position: relative;
+        background: {
+            image: url(../images/3.jpg);
+            position: center;
+            size: cover;
+            attachment: fixed;
+        }
+
+
+        .web-paralex-mask {
+
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, .55);
+        }
+
+        .web-mini-contact-form {
+
+            padding: 25px;
+            background-color: rgba(255, 255, 255, .55);
+        }
+    }
+
+    #web-portfolio {
+
+        background-color: #f2f2f2;
+
+        .web-card {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            box-shadow: 10px 10px 25px rgba(138, 138, 138, .45); // img {
+            //     min-width: 100%;
+            //     max-width: 100%;
+            // }
+            .web-card-content {
+
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                background-color: rgba(0, 0, 0, .45);
+                color: #fff;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .hidden {
+
+                display: none !important;
+            }
+
+            .web-card-mask {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                &:hover {
+                    background-color: rgba(0, 0, 0, .45);
+                }
+            }
+        }
+    }
+
+    #web-about {
+
+
+
+        .web-shadow-right {
+
+            box-shadow: 10px 10px 25px rgba(138, 138, 138, .45);
+        }
+
+        .web-shadow-left {
+
+            box-shadow: -10px -10px 25px rgba(138, 138, 138, .45);
+        }
+    } // modal
+    #web-address {
+
+        background-color: #f2f2f2;
+
+        h4 {
+            padding: 10px;
+        }
+
+        .left-address {
+
+            border-right: 1px solid black;
+        }
+
+        .fab {
+            margin-right: 20px;
+            background-color: gray;
+            color: white;
+            padding: 5px;
+            border-radius: 50%;
+            width: 27px;
+            text-align: center;
+        }
+
+        i.fab.fa-facebook-f {
+            &:hover {
+                background-color: #3b5998;
+            }
+        }
+        i.fab.fa-linkedin-in {
+            &:hover {
+                background-color: #007bb5;
+            }
+        }
+        i.fab.fa-twitter {
+            &:hover {
+                background-color: #55acee;
+            }
+        }
+        i.fab.fa-google-plus-g {
+            &:hover {
+                background-color: #dd4b39;
+            }
+        }
+    }
+
+
+
+    #web-team {
+        .card {
+            box-shadow: 5px 5px 25px 2px gray;
+            margin-top: 20px;
+
+            &:hover {
+                width: 170px;
+                height: 290px;
+            }
+        }
+    }
+
+    .footer {
+        p {
+            color: #fff;
+            margin: 0;
+            padding: 15px;
+            background-color: #353535;
+            text-align: center;
+        }
+    } //MENUUUUUUUUU
+    .sidenav {
+        height: 100%;
+        width: 0;
+        /* 0 width - change this with JavaScript */
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, .7);
+        overflow-x: hidden;
+        padding-top: 160px;
+        transition: 0.5s;
+        a {
+            padding: 18px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #aeaeae;
+            display: block;
+            transition: 0.1s;
+
+            &:hover {
+                color: #f1f1f1;
+            }
+        }
+    }
+
+
+
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            background-color: red;
+
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        #web-address {
+            .left-address {
+
+                border: none;
+                align-text: right;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        #mainSlider {
+            height: 500px;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        #mainSlider {
+            height: 350px;
+        }
+        #web-address {
+            .left-address {
+                iframe {
+                    width: 350px;
+                }
+            }
+        }
+        .web-paralex {
+            .web-mini-contact-form {
+                margin: 20px;
+            }
+        }
+    }
+
+     @media screen and (max-width: 400px) {
+        
+        #web-address {
+            .left-address {
+                iframe {
+                    width: 260px;
+                    height: 200px;
+                }
+            }
+        }
+    }

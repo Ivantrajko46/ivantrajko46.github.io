@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
+</head>
+
+<body onload="ready()">
+    <!-- CAROUSEL -->
+    <div id="mainSlider" class="carousel slide w-100" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#mainSlider" data-slide-to="1"></li>
+            <li data-target="#mainSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="web-slider-mask"></div>
+                <img class="d-block w-100" src="./assets/images/1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="animated fadeInRight">Brza izrada sajtova</h1>
+                    <p class="animated fadeInLeft">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="web-slider-mask"></div>
+                <img class="d-block w-100" src="./assets/images/2.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="animated fadeInRight">Saradjujte sa nama</h1>
+                    <p class="animated fadeInLeft">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="web-slider-mask"></div>
+                <img class="d-block w-100" src="./assets/images/3.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="animated fadeInRight">Zadovoljni klijenti</h1>
+                    <p class="animated fadeInLeft">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+                </div>
+            </div>
+        </div>
+        <!-- HAM MENU navigation TOP RIGHT -->
+        <button onclick="openCloseNav()" class="meni-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <!-- END HAM -->
+        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+        <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+    </div>
+    <!--  WEB - INTRO -->
+    <div id="web-intro" class="container pt-5 pb-5">
+        <div class="row justify-content-center align-items-center pb-5 ">
+            <div class="col text-center">
+                <h1>Brza izrada web stranica</h1>
+                <p>Kreirajte stranicu u pet minuta. Nista lakse!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 32">
+                    <g>
+                        <path d="M37.5,18c-0.276,0-0.5,0.224-0.5,0.5v12c0,0.276-0.224,0.5-0.5,0.5h-35C1.224,31,1,30.776,1,30.5v-12
+                                        C1,18.224,0.776,18,0.5,18S0,18.224,0,18.5v12C0,31.327,0.673,32,1.5,32h35c0.827,0,1.5-0.673,1.5-1.5v-12
+                                        C38,18.224,37.776,18,37.5,18z"></path>
+                        <path d="M25.5,5C25.776,5,26,4.776,26,4.5v-3C26,0.673,25.327,0,24.5,0h-11C12.673,0,12,0.673,12,1.5v3
+                                        C12,4.776,12.224,5,12.5,5S13,4.776,13,4.5v-3C13,1.224,13.224,1,13.5,1h11C24.776,1,25,1.224,25,1.5v3C25,4.776,25.224,5,25.5,5z"></path>
+                        <path d="M36.5,7h-35C0.673,7,0,7.673,0,8.5v4.958c0,2.778,9.456,6.5,19.125,6.5c9.543,0,18.875-3.722,18.875-6.5
+                                        V8.5C38,7.673,37.327,7,36.5,7z M37,13.458c0,1.764-8.457,5.5-17.875,5.5C9.575,18.958,1,15.223,1,13.458V8.5
+                                        C1,8.224,1.224,8,1.5,8h35C36.776,8,37,8.224,37,8.5V13.458z"></path>
+                        <path d="M19.125,23c0.943,0,1.923-0.039,2.914-0.116c0.275-0.021,0.481-0.262,0.459-0.538
+                                        c-0.021-0.275-0.252-0.486-0.538-0.459c-2.014,0.157-3.909,0.15-5.919-0.02c-0.264-0.027-0.517,0.181-0.54,0.456
+                                        c-0.023,0.275,0.181,0.517,0.456,0.54C17.033,22.954,18.099,23,19.125,23z"></path>
+                    </g>
+                </svg>
+                </g>
+                </svg>
+                <h4>Poslovni sajtovi</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.058 50.425">
+                    <g>
+                        <path d="M16.629,35.746c-0.454,0-0.821-0.243-1.008-0.694c-0.042-0.091-0.127-0.306-0.245-0.627
+                                        C13.889,30.347,6.417,8.658,6.08,7.438C5.999,7.145,5.913,6.761,5.818,6.332C5.571,5.219,5.159,3.356,4.631,2.876
+                                        C4.164,2.451,1.863,1.818,0,1.476L0.271,0C0.988,0.132,4.617,0.836,5.64,1.767c0.814,0.74,1.225,2.358,1.642,4.241
+                                        c0.04,0.181,0.078,0.354,0.115,0.513c1.522,0.084,5.952,0.32,11.326,0.606c13.344,0.711,33.51,1.785,34.996,1.907
+                                        c0.244,0.02,0.452,0.028,0.628,0.035c0.53,0.021,0.988,0.04,1.333,0.402c0.482,0.509,0.393,0.949,0.322,1.301l-0.044,0.233
+                                        c-0.334,2.01-5.315,20.741-5.673,21.639c-0.02,0.049-0.031,0.09-0.04,0.123c-0.087,0.299-0.224,0.538-0.611,0.728
+                                        c-0.172,0.083-0.292,0.091-0.648,0.117l-0.211,0.015c-0.914,0.066-4.688,0.301-9.338,0.59c-8.521,0.53-21.343,1.328-22.361,1.458
+                                        C16.919,35.722,16.77,35.746,16.629,35.746z M7.85,8.047c1.505,4.538,7.608,22.223,8.936,25.862
+                                        c0.041,0.112,0.077,0.208,0.107,0.288c0.988-0.12,5.031-0.394,22.45-1.478c4.642-0.289,8.411-0.523,9.322-0.589l0.214-0.016
+                                        c0,0,0.001,0,0.002,0c0.003-0.008,0.006-0.016,0.009-0.023c0.237-0.634,5.234-19.208,5.588-21.332
+                                        c0.011-0.066,0.022-0.126,0.033-0.182c-0.072-0.004-0.151-0.007-0.223-0.01c-0.194-0.008-0.422-0.017-0.69-0.039
+                                        c-1.465-0.12-21.618-1.193-34.954-1.904C13.648,8.358,9.689,8.147,7.85,8.047z"></path>
+                        <rect x="10.177" y="41.988" width="31.375" height="1.5"></rect>
+                        <path d="M10.338,50.425c-2.326,0-4.219-1.893-4.219-4.219s1.893-4.219,4.219-4.219s4.219,1.893,4.219,4.219
+                                        S12.664,50.425,10.338,50.425z M10.338,43.488c-1.499,0-2.719,1.22-2.719,2.719s1.22,2.719,2.719,2.719s2.719-1.22,2.719-2.719
+                                        S11.837,43.488,10.338,43.488z"></path>
+                        <path d="M40.959,50.425c-2.326,0-4.219-1.893-4.219-4.219s1.893-4.219,4.219-4.219s4.219,1.893,4.219,4.219
+                                        S43.286,50.425,40.959,50.425z M40.959,43.488c-1.499,0-2.719,1.22-2.719,2.719s1.22,2.719,2.719,2.719s2.719-1.22,2.719-2.719
+                                        S42.458,43.488,40.959,43.488z"></path>
+                        <path d="M21.767,43.39l-0.741-1.304c2.08-1.182,4.297-5.928,5.026-7.487c0.232-0.496,0.309-0.658,0.383-0.768
+                                        l1.239,0.845l-0.62-0.422l0.633,0.401c-0.047,0.082-0.141,0.287-0.277,0.579C25.944,38.371,23.979,42.133,21.767,43.39z"></path>
+                        <path d="M12.622,43.462l-0.389-1.449c2.555-0.685,4.479-5.703,4.369-7.023l1.495-0.125
+                                        C18.237,36.551,16.165,42.512,12.622,43.462z"></path>
+                        <rect x="6.095" y="20.404" transform="matrix(0.2084 0.978 -0.978 0.2084 36.3381 -2.588)" width="27.346" height="1.5"></rect>
+                        <rect x="15.555" y="20.468" transform="matrix(0.0746 0.9972 -0.9972 0.0746 47.499 -8.7495)" width="25.818" height="1.5"></rect>
+                        <rect x="37.247" y="8.924" transform="matrix(0.9994 0.0358 -0.0358 0.9994 0.7855 -1.3469)" width="1.5" height="24.666"></rect>
+                        <rect x="45.677" y="9.315" transform="matrix(0.9869 0.1614 -0.1614 0.9869 4.0496 -7.2158)" width="1.5" height="23.992"></rect>
+                        <rect x="10.403" y="17.118" width="43.095" height="1.5"></rect>
+                        <rect x="31.638" y="6.967" transform="matrix(0.0182 0.9998 -0.9998 0.0182 57.8124 -6.8377)" width="1.5" height="38.104"></rect>
+                    </g>
+                </svg>
+                <h4>Web Shop</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.87 32">
+                    <g>
+                        <path d="M0.646,5.646c-0.847,0.848-0.666,2.042,0.008,2.715c0.027,0.026,2.734,2.612,6.541,6.419
+                                        c0.098,0.098,0.226,0.146,0.354,0.146s0.256-0.049,0.354-0.146c0.195-0.195,0.195-0.512,0-0.707
+                                        c-0.574-0.574-1.12-1.117-1.638-1.631l1.589-1.589c0.195-0.195,0.195-0.512,0-0.707s-0.512-0.195-0.707,0l-1.593,1.593
+                                        c-0.891-0.88-1.676-1.648-2.315-2.271l3.615-3.615c0.195-0.195,0.195-0.512,0-0.707s-0.512-0.195-0.707,0L2.521,8.772
+                                        c-0.736-0.713-1.16-1.118-1.167-1.125c-0.211-0.211-0.488-0.805,0-1.293l5-5C6.547,1.158,7.061,0.769,7.625,1.33
+                                        c0.025,0.028,2.55,2.896,6.404,6.75c0.195,0.195,0.512,0.195,0.707,0s0.195-0.512,0-0.707C10.906,3.544,8.4,0.698,8.354,0.646
+                                        c-0.932-0.93-2.056-0.651-2.707,0L0.646,5.646z"></path>
+                        <path d="M21.854,24.146c-0.195-0.195-0.512-0.195-0.707,0l-1.591,1.59c-0.485-0.491-0.994-1.005-1.53-1.541
+                                        c-0.195-0.195-0.512-0.195-0.707,0s-0.195,0.512,0,0.707c3.704,3.703,6.291,6.469,6.328,6.509c0.343,0.344,0.813,0.533,1.323,0.533
+                                        h0c0.525,0,1.056-0.205,1.385-0.535l4.998-5.057c0.629-0.629,0.665-1.696,0.078-2.285l-6.706-6.705
+                                        c-0.195-0.195-0.512-0.195-0.707,0s-0.195,0.512,0,0.707l6.706,6.705c0.2,0.2,0.162,0.632-0.079,0.873l-4.999,5.057
+                                        c-0.115,0.116-0.376,0.24-0.676,0.24c0,0,0,0,0,0c-0.172,0-0.418-0.042-0.604-0.229c-0.01-0.011-0.429-0.458-1.156-1.219
+                                        l3.644-3.644c0.195-0.195,0.195-0.512,0-0.707s-0.512-0.195-0.707,0l-3.629,3.629c-0.624-0.649-1.389-1.438-2.26-2.326l1.596-1.596
+                                        C22.049,24.658,22.049,24.342,21.854,24.146z"></path>
+                        <path d="M0.142,31.829c0.096,0.098,0.225,0.15,0.358,0.15c0.048,0,0.096-0.007,0.143-0.021l10-2.979
+                                        c0.081-0.024,0.153-0.067,0.212-0.127l17.09-17.205c0.024-0.024,0.036-0.055,0.054-0.082l3.656-3.656
+                                        c0.294-0.295,0.457-0.686,0.457-1.103c0-0.416-0.163-0.807-0.457-1.1L26.42,0.472c-0.588-0.588-1.615-0.588-2.203,0l-3.739,3.739
+                                        c-0.024,0.024-0.037,0.055-0.055,0.083L3.307,21.411c-0.056,0.056-0.098,0.124-0.122,0.199l-3.16,9.715
+                                        C-0.033,31.502,0.012,31.695,0.142,31.829z M20.86,5.271l1.039,1.039L6.376,21.875l-1.727-0.392L20.86,5.271z M7,22.666
+                                        L22.607,7.018l2.436,2.436L9.295,25H7V22.666z M26.884,11.296L10.64,27.65l-0.577-2.002L25.75,10.161L26.884,11.296z M3.993,22.359
+                                        L6,22.815V25.5C6,25.776,6.224,26,6.5,26h2.624l0.634,2.2L1.27,30.729L3.993,22.359z M24.925,1.179
+                                        c0.211-0.211,0.578-0.211,0.789,0l5.235,5.235c0.105,0.105,0.163,0.245,0.163,0.394c0,0.148-0.058,0.289-0.164,0.395l-3.371,3.372
+                                        l-6.023-6.023L24.925,1.179z"></path>
+                    </g>
+                </svg>
+                <path d="M37.5,18c-0.276,0-0.5,0.224-0.5,0.5v12c0,0.276-0.224,0.5-0.5,0.5h-35C1.224,31,1,30.776,1,30.5v-12
+                                        C1,18.224,0.776,18,0.5,18S0,18.224,0,18.5v12C0,31.327,0.673,32,1.5,32h35c0.827,0,1.5-0.673,1.5-1.5v-12
+                                        C38,18.224,37.776,18,37.5,18z"></path>
+                <path d="M25.5,5C25.776,5,26,4.776,26,4.5v-3C26,0.673,25.327,0,24.5,0h-11C12.673,0,12,0.673,12,1.5v3
+                                        C12,4.776,12.224,5,12.5,5S13,4.776,13,4.5v-3C13,1.224,13.224,1,13.5,1h11C24.776,1,25,1.224,25,1.5v3C25,4.776,25.224,5,25.5,5z"></path>
+                <path d="M36.5,7h-35C0.673,7,0,7.673,0,8.5v4.958c0,2.778,9.456,6.5,19.125,6.5c9.543,0,18.875-3.722,18.875-6.5
+                                        V8.5C38,7.673,37.327,7,36.5,7z M37,13.458c0,1.764-8.457,5.5-17.875,5.5C9.575,18.958,1,15.223,1,13.458V8.5
+                                        C1,8.224,1.224,8,1.5,8h35C36.776,8,37,8.224,37,8.5V13.458z"></path>
+                <path d="M19.125,23c0.943,0,1.923-0.039,2.914-0.116c0.275-0.021,0.481-0.262,0.459-0.538
+                                        c-0.021-0.275-0.252-0.486-0.538-0.459c-2.014,0.157-3.909,0.15-5.919-0.02c-0.264-0.027-0.517,0.181-0.54,0.456
+                                        c-0.023,0.275,0.181,0.517,0.456,0.54C17.033,22.954,18.099,23,19.125,23z"></path>
+                </g>
+                </svg>
+                <h4>Responsive Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 57.74">
+                    <g>
+                        <path d="M49.833,50.5h-21V8.907c0-0.368-0.299-0.667-0.667-0.667H13.083V2.167C13.083,0.972,14.055,0,15.25,0
+                                        h34.583C51.028,0,52,0.972,52,2.167v46.165C52,49.527,51.028,50.5,49.833,50.5z M30.333,49h19.5c0.368,0,0.667-0.299,0.667-0.667
+                                        V2.167c0-0.368-0.299-0.667-0.667-0.667H15.25c-0.368,0-0.667,0.299-0.667,0.667V6.74h13.583c1.195,0,2.167,0.972,2.167,2.167V49z"></path>
+                        <path d="M28.249,57.74H2.167C0.972,57.74,0,56.767,0,55.572V9.157C0,7.962,0.972,6.99,2.167,6.99h26.082
+                                        c1.195,0,2.167,0.972,2.167,2.167v46.415C30.416,56.767,29.444,57.74,28.249,57.74z M2.167,8.49C1.799,8.49,1.5,8.789,1.5,9.157
+                                        v46.415c0,0.368,0.299,0.668,0.667,0.668h26.082c0.368,0,0.667-0.3,0.667-0.668V9.157c0-0.368-0.299-0.667-0.667-0.667H2.167z"></path>
+                        <path d="M26.75,49.321H3.333V14.737H26.75V49.321z M4.833,47.821H25.25V16.237H4.833V47.821z"></path>
+                        <polygon points="47.333,42.404 29.666,42.404 29.666,40.904 45.833,40.904 45.833,6.154 18.917,6.154 18.917,7.49
+                                        17.417,7.49 17.417,4.654 47.333,4.654   "></polygon>
+                        <rect x="11.75" y="11.904" width="7.187" height="1.5"></rect>
+                        <path d="M33.249,47.491c-1.149,0-2.084-0.935-2.084-2.084s0.935-2.084,2.084-2.084s2.084,0.935,2.084,2.084
+                                        S34.398,47.491,33.249,47.491z M33.249,44.823c-0.322,0-0.584,0.262-0.584,0.584s0.262,0.584,0.584,0.584s0.584-0.262,0.584-0.584
+                                        S33.571,44.823,33.249,44.823z"></path>
+                        <path d="M16.011,54.673c-1.149,0-2.084-0.935-2.084-2.084s0.935-2.084,2.084-2.084s2.084,0.935,2.084,2.084
+                                        S17.16,54.673,16.011,54.673z M16.011,52.005c-0.322,0-0.584,0.262-0.584,0.584s0.262,0.584,0.584,0.584s0.584-0.262,0.584-0.584
+                                        S16.333,52.005,16.011,52.005z"></path>
+                    </g>
+                </svg>
+                <path d="M37.5,18c-0.276,0-0.5,0.224-0.5,0.5v12c0,0.276-0.224,0.5-0.5,0.5h-35C1.224,31,1,30.776,1,30.5v-12
+                                        C1,18.224,0.776,18,0.5,18S0,18.224,0,18.5v12C0,31.327,0.673,32,1.5,32h35c0.827,0,1.5-0.673,1.5-1.5v-12
+                                        C38,18.224,37.776,18,37.5,18z"></path>
+                <path d="M25.5,5C25.776,5,26,4.776,26,4.5v-3C26,0.673,25.327,0,24.5,0h-11C12.673,0,12,0.673,12,1.5v3
+                    C12,4.776,12.224,5,12.5,5S13,4.776,13,4.5v-3C13,1.224,13.224,1,13.5,1h11C24.776,1,25,1.224,25,1.5v3C25,4.776,25.224,5,25.5,5z"></path>
+                <path d="M36.5,7h-35C0.673,7,0,7.673,0,8.5v4.958c0,2.778,9.456,6.5,19.125,6.5c9.543,0,18.875-3.722,18.875-6.5
+                                        V8.5C38,7.673,37.327,7,36.5,7z M37,13.458c0,1.764-8.457,5.5-17.875,5.5C9.575,18.958,1,15.223,1,13.458V8.5
+                                        C1,8.224,1.224,8,1.5,8h35C36.776,8,37,8.224,37,8.5V13.458z"></path>
+                <path d="M19.125,23c0.943,0,1.923-0.039,2.914-0.116c0.275-0.021,0.481-0.262,0.459-0.538
+                                        c-0.021-0.275-0.252-0.486-0.538-0.459c-2.014,0.157-3.909,0.15-5.919-0.02c-0.264-0.027-0.517,0.181-0.54,0.456
+                                        c-0.023,0.275,0.181,0.517,0.456,0.54C17.033,22.954,18.099,23,19.125,23z"></path>
+                </g>
+                </svg>
+                <h4>Android Aplikacije</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            </div>
+        </div>
+    </div>
+    <!-- WEB - PARALEX KONTAKT -->
+    <div class="web-paralex">
+        <div class="web-paralex-mask"></div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+                <div class="col-sm-6 web-mini-contact-form">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col text-center">
+                            <h1>Kontaktirajte nas </h1>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email adresa</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Unesite e-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Poruka</label>
+                            <textarea class="form-control" id="message" placeholder="Poruka"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Posalji</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- WEB - PORTFOLIO -->
+    <div id="web-portfolio" class="container-fluid pt-5 pb-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col text-center">
+                <h1>Portfolio</h1>
+                <p>Upoznajte se sa nasim radovima</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-4 mb-4">
+                <div class="web-card">
+                    <img src="./assets/images/4.jpg" alt="portfolio">
+                    <div class="web-card-mask"></div>
+                    <div class="web-card-content">
+                        <h5>Naslov projekta</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-4 mb-4">
+                <div class="web-card">
+                    <img src="./assets/images/4.jpg" alt="portfolio">
+                    <div class="web-card-mask"></div>
+                    <div class="web-card-content">
+                        <h5>Naslov projekta</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-4 mb-4">
+                <div class="web-card">
+                    <img src="./assets/images/4.jpg" alt="portfolio">
+                    <div class="web-card-mask"></div>
+                    <div class="web-card-content">
+                        <h5>Naslov projekta</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-4 mb-4">
+                <div class="web-card">
+                    <img src="./assets/images/4.jpg" alt="portfolio">
+                    <div class="web-card-mask"></div>
+                    <div class="web-card-content">
+                        <h5>Naslov projekta</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-4 mb-4">
+                <div class="web-card">
+                    <img src="./assets/images/4.jpg" alt="portfolio">
+                    <div class="web-card-mask"></div>
+                    <div class="web-card-content">
+                        <h5>Naslov projekta</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-4 mb-4">
+                <div class="web-card">
+                    <img src="./assets/images/4.jpg" alt="portfolio">
+                    <div class="web-card-mask"></div>
+                    <div class="web-card-content">
+                        <h5>Naslov projekta</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- WEB - ABOUT -->
+    <div id="web-about" class="container">
+        <div class="row pt-5 pb-5">
+            <div class="col-sm-12 col-md-6 pt-5 text-center">
+                <h1>O nama</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 p-5">
+                <img class="web-shadow-right" src="./assets/images/1.jpg" alt="about">
+            </div>
+        </div>
+        <div class="row pt-5 pd-5">
+            <div class="col-sm-12 col-md-6 p-5">
+                <img class="web-shadow-left" src="./assets/images/6.jpg" alt="about">
+            </div>
+            <div class="col-sm-12 col-md-6 pt-5 text-center">
+                <h1>Nasa Vizija</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+        </div>
+    </div>
+    <!-- WEB TEAM -->
+    <div id="web-team" class="container pt-5 pb-5">
+        <div class="row justify-content-center align-items-center pb-5">
+            <div class="col text-center">
+                <h1>Nas Tim</h1>
+                <p>Nas tim je sastavljen od iskusnih profesionalaca sa dugogodisnjim iskustvom</p>
+            </div>
+        </div>
+        <div class="row pb-5">
+            <div class="col-md-4 col-sm-4 col-lg-2">
+                <div class="card" data-toggle="modal" data-target="#webModal1">
+                    <img class="card-img-top px-2 py-2" src="./assets/images/7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text"><b>Ivan Trajkovic</b>
+                            <br> Web Developer</p>
+                    </div>
+                </div>
+                <!-- MODAL WEB TEAM -->
+                <div class="modal fade" id="webModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Ivan Trajkovic</h5>
+
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="./assets/images/7.jpg">
+                                    </div>
+                                    <div class="col-8">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-lg-2">
+                <div class="card" data-toggle="modal" data-target="#webModal1">
+                    <img class="card-img-top px-2 py-2" src="./assets/images/7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text"><b>Ivan Trajkovic</b>
+                            <br> Web Developer</p>
+                    </div>
+                </div>
+                <!-- MODAL WEB TEAM -->
+                <div class="modal fade" id="webModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Ivan Trajkovic</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="./assets/images/7.jpg">
+                                    </div>
+                                    <div class="col-8">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-lg-2">
+                <div class="card" data-toggle="modal" data-target="#webModal1">
+                    <img class="card-img-top px-2 py-2" src="./assets/images/7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text"><b>Ivan Trajkovic</b>
+                            <br> Web Developer</p>
+                    </div>
+                </div>
+                <!-- MODAL WEB TEAM -->
+                <div class="modal fade" id="webModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Ivan Trajkovic</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="./assets/images/7.jpg">
+                                    </div>
+                                    <div class="col-8">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-lg-2">
+                <div class="card" data-toggle="modal" data-target="#webModal1">
+                    <img class="card-img-top px-2 py-2" src="./assets/images/7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text"><b>Ivan Trajkovic</b>
+                            <br> Web Developer</p>
+                    </div>
+                </div>
+                <!-- MODAL WEB TEAM -->
+                <div class="modal fade" id="webModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Ivan Trajkovic</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="./assets/images/7.jpg">
+                                    </div>
+                                    <div class="col-8">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-lg-2">
+                <div class="card" data-toggle="modal" data-target="#webModal1">
+                    <img class="card-img-top px-2 py-2" src="./assets/images/7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text"><b>Ivan Trajkovic</b>
+                            <br> Web Developer</p>
+                    </div>
+                </div>
+                <!-- MODAL WEB TEAM -->
+                <div class="modal fade" id="webModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Ivan Trajkovic</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="./assets/images/7.jpg">
+                                    </div>
+                                    <div class="col-8">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-lg-2">
+                <div class="card" data-toggle="modal" data-target="#webModal1">
+                    <img class="card-img-top px-2 py-2" src="./assets/images/7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text"><b>Ivan Trajkovic</b>
+                            <br> Web Developer</p>
+                    </div>
+                </div>
+                <!-- MODAL WEB TEAM -->
+                <div class="modal fade" id="webModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Ivan Trajkovic</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="./assets/images/7.jpg">
+                                    </div>
+                                    <div class="col-8">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- WEB ADDRESS -->
+    <div id="web-address" class="container-fluid">
+        <div class="container pt-5 pb-5">
+            <div class="row pb-5">
+                <div class="col-md-6 col-lg-6 left-address">
+                    <h4>I Web Studio</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3552.987778722252!2d21.892818582380443!3d43.32177748417516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b0b44cf7d63f%3A0x7c5967e0df1659c!2z0KLRgNCzINC60YDQsNGZ0LAg0JzQuNC70LDQvdCwLCDQndC40Yg!5e0!3m2!1ssr!2srs!4v1530607464668" width="400" height="250" frameborder="0" style="border: 1px solid gray" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6 col-lg-6 text-center">
+                    <p>Adresa :</p>
+                    <p>Trg Kralja Milana bb</p>
+                    <p>Telefoni :</p>
+                    <p>+38164/11 11 111</p>
+                    <p>+38164/11 11 111</p>
+                    <p>+38164/11 11 111</p>
+                    <p>iwebstudio@iws.com</p>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; 2018 Ivan Trajkovic</p>
+    </div>
+    <!-- NAVIGATION RIGHT MENU SLIDE -->
+    <div id="mySidenav" class="sidenav">
+        <a href="#web-portfolio">Portfolio</a>
+        <a href="#web-about">O Nama</a>
+        <a href="#web-team">Nas Tim</a>
+        <a href="#web-address">Kontakt</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/webScript.js"></script>
+</body>
+
+</html>
