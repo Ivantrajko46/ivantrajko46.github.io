@@ -131,7 +131,8 @@ body {
 #web-team .card {
   -webkit-box-shadow: 5px 5px 25px 2px gray;
   box-shadow: 5px 5px 25px 2px gray;
-  margin-top: 20px; }
+  margin-top: 20px;
+  cursor: pointer; }
   #web-team .card:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
