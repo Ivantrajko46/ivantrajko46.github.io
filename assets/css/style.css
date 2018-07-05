@@ -172,7 +172,7 @@ body {
 
 @media screen and (max-height: 450px) {
   .sidenav {
-    background-color: red; }
+    padding-top: 15px; }
     .sidenav a {
       font-size: 18px; } }
 
