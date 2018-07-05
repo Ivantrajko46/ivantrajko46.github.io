@@ -130,7 +130,7 @@ body {
   box-shadow: 5px 5px 25px 2px gray;
   margin-top: 20px; }
   #web-team .card:hover {
-     }
+    transform: scale(1.1); }
 
 .footer p {
   color: #fff;
