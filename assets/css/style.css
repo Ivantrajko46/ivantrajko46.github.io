@@ -130,8 +130,7 @@ body {
   box-shadow: 5px 5px 25px 2px gray;
   margin-top: 20px; }
   #web-team .card:hover {
-    width: 170px;
-    height: 290px; }
+     }
 
 .footer p {
   color: #fff;
