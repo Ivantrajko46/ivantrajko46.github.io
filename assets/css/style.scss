@@ -150,6 +150,12 @@
 
         background-color: #f2f2f2;
 
+        a {
+            display: inline-block;
+            padding-bottom: 20px;
+        }
+
+
         h4 {
             padding: 10px;
         }
@@ -191,8 +197,6 @@
         }
     }
 
-
-
     #web-team {
         .card {
             box-shadow: 5px 5px 25px 2px gray;
@@ -212,7 +216,9 @@
             background-color: #353535;
             text-align: center;
         }
-    } //MENUUUUUUUUU
+    } 
+
+    //MENUUUUUUUUU
     .sidenav {
         height: 100%;
         width: 0;
@@ -240,27 +246,22 @@
     }
 
 
-
     @media screen and (max-height: 450px) {
         .sidenav {
             background-color: red;
-
             a {
                 font-size: 18px;
             }
         }
     }
-
     @media screen and (max-width: 992px) {
         #web-address {
             .left-address {
-
                 border: none;
                 align-text: right;
             }
         }
     }
-
     @media screen and (max-width: 768px) {
         #mainSlider {
             height: 500px;
@@ -285,8 +286,8 @@
         }
     }
 
-     @media screen and (max-width: 400px) {
-        
+    @media screen and (max-width: 400px) {
+
         #web-address {
             .left-address {
                 iframe {
@@ -294,5 +295,9 @@
                     height: 200px;
                 }
             }
+        }
+
+        #mainSlider {
+            height: 250px;
         }
     }

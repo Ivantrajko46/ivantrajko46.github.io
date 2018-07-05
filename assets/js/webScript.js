@@ -36,7 +36,6 @@ function ready() {
             if (cardContent.className) {
 
                 if (cardContent.className.match('web-card-content')) {
-
                     cardContent.classList.remove('slideInUp');
                     cardContent.classList.remove('animated');
                     cardContent.classList.add('hidden');
@@ -60,9 +59,6 @@ function openCloseNav() {
 
     } else {
         sideNav.style.width = "0";
-
-
-
 
     }
 

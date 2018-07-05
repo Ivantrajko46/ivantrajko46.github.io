@@ -104,6 +104,9 @@ body {
 
 #web-address {
   background-color: #f2f2f2; }
+  #web-address a {
+    display: inline-block;
+    padding-bottom: 20px; }
   #web-address h4 {
     padding: 10px; }
   #web-address .left-address {
@@ -130,6 +133,8 @@ body {
   box-shadow: 5px 5px 25px 2px gray;
   margin-top: 20px; }
   #web-team .card:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
     transform: scale(1.1); }
 
 .footer p {
@@ -191,4 +196,6 @@ body {
 @media screen and (max-width: 400px) {
   #web-address .left-address iframe {
     width: 260px;
-    height: 200px; } }
+    height: 200px; }
+  #mainSlider {
+    height: 250px; } }
